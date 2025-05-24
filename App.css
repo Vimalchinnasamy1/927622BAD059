@@ -1,0 +1,43 @@
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.stock-card {
+  display: inline-block;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 300px;
+}
+
+.stock-card h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+.stock-card p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.green {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.red {
+  color: #dc3545;
+  font-weight: bold;
+}
